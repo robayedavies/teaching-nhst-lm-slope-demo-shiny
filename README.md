@@ -12,7 +12,7 @@ project (one predictor; no adjustment for other predictors).
 It is a Shiny app that runs **entirely in the browser** (shinylive / webR), so
 this repository is a static website: there is no R server.
 
-Live page (once GitHub Pages is switched on):
+Live page:
 `https://robayedavies.github.io/teaching-nhst-lm-slope-demo-shiny/`
 
 ## Using the page

@@ -7,7 +7,7 @@
 #
 # Version B = the Version C app (nhst-sampling-variability-lm-app/) without Phase C: no age,
 # no "Also adjust for" boxes, no added-variable plots. See
-# nhst-sampling-variability-lm-b-walkthrough.qmd.
+# nhst-lm-version-b-development-walkthrough.qmd.
 #
 # Run from the project root with:
 #   shiny::runApp("nhst-sampling-variability-lm-b-app")

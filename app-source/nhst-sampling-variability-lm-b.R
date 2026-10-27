@@ -26,7 +26,7 @@
 #' for other predictors, added-variable plots, added R^2, VIF). Function names are the
 #' same as in Version C, so DO NOT source both files into one R session. With no
 #' other predictors ticked, Version C gives identical results (checked by a parity
-#' script; see nhst-sampling-variability-lm-b-walkthrough.qmd).
+#' script; see nhst-lm-version-b-development-walkthrough.qmd).
 #'
 #' Why this can reuse the correlation machinery. In simple regression the t-test
 #' of b1 is the same test as the t-test of r (same t, df and p), and R^2 = r^2.
