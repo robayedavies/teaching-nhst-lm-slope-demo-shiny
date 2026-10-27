@@ -65,3 +65,5 @@ The copies are not linked to the originals: re-copy them if the originals change
 | Date | Browser | Result |
 |---|---|---|
 | 2026-10-27 | Chrome (headless), local copy of this site, fresh profile | Works. All four plots after 7.0 s; N = 1000 settled in 2.5 s; "Redraw the piles" 1.5 s; "Draw new samples" 2.1 s (seed and focal plot change); gender predictor works; no output errors |
+| 2026-10-27 | Chrome (user), live GitHub Pages page | Works; looks as intended |
+| 2026-10-27 | Chrome (headless), live GitHub Pages page, fresh profile | Works. All four plots appear after 33.2 s on a first visit (varies with the network; 7.0 s on localhost), no reload, no output errors. After the first render the page settled in 0.9 s. N = 1000 settled in 2.3 s; "Redraw the piles" 1.4 s (piles changed); "Draw new samples" 2.0 s (seed and focal plot changed); back to N = 30 2.2 s; gender predictor works (slider re-ranged, mean-difference footer). Only the harmless messages: a `favicon.ico` 404, the webR PostMessage warning and the "LazyFiles on gzip" warnings |
